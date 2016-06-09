@@ -1,58 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <head>
     <meta charset="UTF-8">
     <title>Ali | AstroWeightCalc</title>
+    <link rel="stylesheet" href="second.css">
 </head>
 
 <body>
     <header>
-    <!-- main title -->
-    <h1>Astro Weight Calculator</h1>
-    <table>
-        <tr>
-            <!-- two titles -->
-            <td>
-                <h3>Your weight</h3></td>
-            <td>
-                <h3>Select a planet</h3>
-            </td>
-        </tr>
-        <td>
-            <!-- creates a box for the user to type -->
-            <input type="text" id="weight" class="myTable">
-        </td>
-        <td>
-            <!-- creates a choice box with values -->
-            <select id="thePlanets">
-                <option value="27.9">Sun</option>
-                <option value=".377">Mercury</option>
-                <option value="0.9032">Venus</option>
-                <option value="1">Earth</option>
-                <option value="0.1655">Moon</option>
-                <option value="0.3895">Mars</option>
-                <option value="2.640">Jupiter</option>
-                <option value="1.139">Saturn</option>
-                <option value="0.917">Uranus</option>
-                <option value="1.148">Neptune</option>
-                <option value="0.06">Pluto</option>
-            </select>
-        </td>
-        <td>
-            <!-- creates a button that calls its answer from .js -->
-            <button type="button" onclick="call()" class="myButton">Calculate</button>
-        </td>
-        </tr>
-    </table>
-    <!-- thise calls the function .js to print out the answer -->
-    <p id="overAll"></p>
-    
+        <!-- main title -->
+        <h1>Astro Weight Calculator</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Enter your weight</th>
+                    <th>Select the planet</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>
+                    <!-- creates a box for the user to type -->
+                    <input type="text" id="weight" class="myTable">
+                </td>
+                <td>
+                    <!-- creates a choice box with values -->
+                    <select id="thePlanets"></select>
+                </td>
+                <td>
+                    <button type="button" class="myButton">Calculate</button>
+                    </td>
+            </tr>
+                    <!-- creates a button that calls its answer from .js -->
+                  
+                
+        </table>
+        <!-- thise calls the function .js to print out the answer -->
+        <p id="overAll"></p>
     </header>
     <section>
-        <!-- the image -->
-        <img src="happyplanet.jpg" alt="" class="happyP">
+      <img src="sunM.jpg" alt="" class="sun">
     </section>
+
     <script src="index.js"></script>
 </body>
 

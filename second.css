@@ -1,0 +1,58 @@
+
+body{
+	background-color: #00ffbf;
+}
+
+/*controls everyting in the header*/
+header {
+    
+    margin-top: 50px;
+    margin-left: 460px;
+    font-size: 1.25em;
+}
+
+/*controls the main title*/
+body header h1{
+	margin-left: 4%
+}
+
+/*fixes the size of the weight box*/
+.myTable
+{
+	height: 20px;
+	width: 180px;
+}
+
+/*fix the scroller box*/
+#thePlanets{
+	height: 100px;
+	width: 150px;
+	margin: 0 10%;
+}
+
+/*edits the button*/
+.myButton
+{
+		height:30px;
+		margin: 0 10% 0 60%;
+}
+
+/*control the 2 titles*/
+table tr td h3{
+      margin: 15px;      
+}
+
+/*contrl all images*/
+section
+{
+	max-width: 100%
+
+}
+
+.sun
+{
+	margin: 5% 20% 20% 34%;
+	width: 35%;
+	
+
+}
